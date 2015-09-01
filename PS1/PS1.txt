@@ -27,7 +27,7 @@ The following lines will be strings to be evaluated
 
 Output format:
 Print true or false to console (STDOUT)
-Line separated Please
+Line separated please
 
 Ex.
 4
@@ -44,7 +44,6 @@ false
 
 Code is provided in Java to run STIN from a text file
 Feel free to rewrite this in any language
-
 
 
 Problem 2 - Diagonal Matrix
@@ -104,3 +103,39 @@ Print to console line separated pyramids
   ###
  ####
 #####
+
+
+
+
+
+
+
+************************************************
+WRITE YOUR OWN TEST CASES!!!!
+
+
+We deliberately gave an incomplete set of test cases, please add more to thoroughly test your code.
+
+
+How to add test cases:
+
+
+Problem 1 -
+The first integer in the text file is the number of test case inputs. Every string after that is an input string
+Increment the test case counter when adding in additional test cases.
+
+Problem 2 -
+The first integer in the text file is the number of test case inputs. After that, each test case consists of the dimension of the matrix,
+followed by the actual matrix.
+
+When adding in additional test cases, increment the test case counter at the top, then append the dimension, and then the matrix
+itself.
+
+Problem 3 - 
+The first integer in the text file is the number of test case inputs. After that are the test cases themselves, namely the heights of the stairs
+to print. When adding test cases, increment the test cast input counter, and append heights of stairs test cases to the file.
+
+************************************************
+
+
+
