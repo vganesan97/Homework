@@ -23,11 +23,34 @@ Given an integer input N, print a staircase out of height N. For example, given 
  ####
 #####
 
-*/
 
-public static void stairs() {
-	Scanner scan = new Scanner(System.in);
-	int input = scan.nextInt();
-	//YOUR CODE HERE
-	return;
+PLEASE LOOK AT PS1.txt FOR MORE DETAILS!!!
+
+************************************************
+
+*/
+public class Stairs {
+
+
+	public static void stairs(int input) {
+		//YOUR CODE HERE
+		return;
+	}
+
+
+	public static void main(String[] args) {
+		File file = new File("Stairs.txt");
+		try {
+			Scanner scan = new Scanner(file);
+			int numberOfCases = scan.nextInt();
+			for(int i = 0; i < numberOfCases; i++) {
+				int height = scan.nextInt();
+				stairs(height);
+			}
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
 }

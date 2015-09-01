@@ -28,11 +28,35 @@ Given a String S, determine if it is an anagram of a palindrome.
 Return true if the String is an anagram of a palindrome, and false otherwise. 
 For example, the String “oatrtro” will return true (rotator), while the String “false” will return false.
 
+
+PLEASE LOOK AT PS1.txt FOR MORE DETAILS!!!
+
+************************************************
+
 */
 
-public static boolean anagram() {
-	Scanner scan = new Scanner(System.in);
-	String input = scan.next();
-	//YOUR CODE HERE
-	return false;
+public class Anagram {
+
+	public static boolean anagram(String input) {
+		//YOUR CODE HERE
+		return false;
+	}
+
+
+
+	public static void main(String[] args) {
+		File file = new File("Anagram.txt");
+		try {
+			Scanner scan = new Scanner(file);
+			int numberOfCases = scan.nextInt();
+			for(int i = 0; i < numberOfCases; i++) {
+				String input = scan.next();
+				System.out.println(anagram(input));
+			}
+			scan.close();
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 }
