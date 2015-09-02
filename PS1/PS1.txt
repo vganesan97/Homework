@@ -74,7 +74,7 @@ Feel free to rewrite this in any language
 
 Problem 3 - Stairs
 Given an integer input N, print a staircase out of height N. For example, given
-the input 4, print out the following staircase:
+the input 5, print out the following staircase:
 
     #
    ##
@@ -92,20 +92,19 @@ Ex.
 4
 
 Output format - console
-Print to console line separated stairs
+Print to console space separated stairs
+    #
+   ##
+
     #
    ##
   ###
  ####
-#####
+
     #
    ##
   ###
  ####
-#####
-
-
-
 
 
 
