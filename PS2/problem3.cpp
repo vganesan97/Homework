@@ -1,3 +1,7 @@
+// this problem was made to illustrate memory management in C++
+// if you need help, google 'dynamically allocated memory in c++' and how
+// it can cause numerous memory leaks if not managed properly
+
 #include <iostream>
 
 using namespace std;

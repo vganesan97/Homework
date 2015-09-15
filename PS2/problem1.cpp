@@ -1,3 +1,6 @@
+// there are numerous syntactical errors in the code below
+// if the code successfully compiles, you are done with this problem!
+
 #include <iostream>
 
 void printSecondary() {

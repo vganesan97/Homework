@@ -1,3 +1,6 @@
+// this program is missing something that lets you use the pow() function
+// if this program successfully compiles, you have finished this problem!
+
 #include <iostream>
 
 using namespace std;
