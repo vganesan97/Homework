@@ -17,7 +17,7 @@ program never ends because of a logical error.
 Use eclipse for this problem 
 
 Why doesn't this program stop running?
-There are three issues to address.
+There are three logical issues to address.
 ************************************************
 */
 
