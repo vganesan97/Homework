@@ -14,6 +14,8 @@ Problem 4
 This program causes something called an infinite loop. This means that the
 program never ends because of a logical error.
 
+Use eclipse for this problem 
+
 Why doesn't this program stop running?
 There are three issues to address.
 ************************************************
