@@ -10,13 +10,23 @@ Problem Set 3
 Problem 3
 
 Find the python bug!
-Should print 'CS196' when completed
+Should print:
+'C S 1 9 6'
+'C S 1 9 6'
+'C S 1 9 6'
+when correct
 ************************************************
 """
 
-def printStatement(foo):
-    length = foo.length;
-    for i in xrange(length+1):
-        System.out.println(i[foo]);
+def printStatement(times, foo):
+    length = len(foo);
+    i = 1
+    while i < times:
+        j = 0
+        while j <= length:
+            print(foo[j]),
+        j = j + 1
+        print('')
+    i = i + 1
 
-printStatement(['CS','1','9','6'])
+printStatement(3, ['C','S','1','9','6'])
