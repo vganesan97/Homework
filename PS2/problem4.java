@@ -14,10 +14,26 @@ Problem 4
 This program causes something called an infinite loop. This means that the
 program never ends because of a logical error.
 
-Use eclipse for this problem 
+Use eclipse for this problem
 
-Why doesn't this program stop running?
+Why doesn't this program stop running/print the correct number of statements?
 There are three logical issues to address.
+
+This program should print the following when done:
+
+This sentence should print 5 times.
+This sentence should print 5 times.
+This sentence should print 5 times.
+This sentence should print 5 times.
+This sentence should print 5 times.
+This sentence should print 3 times.
+This sentence should print 3 times.
+This sentence should print 3 times.
+This sentence should print 4 times.
+This sentence should print 4 times.
+This sentence should print 4 times.
+This sentence should print 4 times.
+
 ************************************************
 */
 
@@ -43,8 +59,8 @@ class Problem4 {
     }
 
     public static void printThirdSentence() {
-        for(int amount = 0; amount < 10; amount++) {
-            System.out.println("This sentence should print 5 times")
+        for(int amount = 0; amount < 12; amount++) {
+            System.out.println("This sentence should print 4 times.")
             amount--;
         }
     }
