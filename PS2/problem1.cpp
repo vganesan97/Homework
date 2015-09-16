@@ -6,7 +6,7 @@
 | |___ ___) | | |\__, | (_) |
  \____|____/  |_|  /_/ \___/
 
-Problem Set 1
+Problem Set 2
 Problem 1
 
 There are numerous syntactical errors in the code below

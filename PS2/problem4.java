@@ -8,7 +8,7 @@ import java.util.*;
 | |___ ___) | | |\__, | (_) |
  \____|____/  |_|  /_/ \___/
 
-Problem Set 1
+Problem Set 2
 Problem 4
 
 This program causes something called an infinite loop. This means that the

@@ -6,7 +6,7 @@
 | |___ ___) | | |\__, | (_) |
  \____|____/  |_|  /_/ \___/
 
-Problem Set 1
+Problem Set 2
 Problem 2
 
 This program is missing something that lets you use the pow() function.
